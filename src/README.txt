@@ -7,7 +7,7 @@ Some famous blogging tool style for Tinkerer
 
 Output sample
 =============
-:output: http://naoiwata.github.io/demo/tinkeralizarin/
+:output: http://naoiwata.bitbucket.org/demo/tinkeralizarin/
 
 
 Feature
