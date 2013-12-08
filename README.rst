@@ -2,9 +2,6 @@
  sphinxjp.themes.tinkeralizarin
 =================================
 
-Some famous blogging tool style for Tinkerer
-
-
 Output sample
 =============
 :output: http://naoiwata.bitbucket.org/demo/tinkeralizarin/
@@ -12,7 +9,7 @@ Output sample
 
 Feature
 =======
-* provide tinkerer blog theme like some famous blogging tool
+* A single column blogging theme tool for Tinkerer, based on alizarin color.
 
 
 Installation
@@ -20,6 +17,11 @@ Installation
 Make environment with easy_install::
 
    $ easy_install sphinxjp.themes.tinkeralizarin
+
+
+Make environment with pip::
+
+   $ pip sphinxjp.themes.tinkeralizarin
 
 
 setup conf.py with::
@@ -46,7 +48,7 @@ Browsers:
 
 * Safari
 * Chrome
-* Firefox 10 or later
+* Firefox
 
 
 License

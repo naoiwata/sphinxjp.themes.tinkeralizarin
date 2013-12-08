@@ -2,7 +2,7 @@
  sphinxjp.themes.tinkeralizarin
 ================================
 
-Some famous blogging tool style for Tinkerer
+A single column blogging theme tool for Tinkerer, based on alizarin color.
 
 
 Output sample
@@ -21,6 +21,9 @@ Make environment with easy_install::
 
    $ easy_install sphinxjp.themes.tinkeralizarin
 
+Make environment with pip::
+
+   $ pip sphinxjp.themes.tinkeralizarin
 
 setup conf.py with::
 
@@ -37,7 +40,7 @@ Requirement
 ===========
 Libraries:
 
-* Python 2.4 or later (not support 3.x)
+* Python 2.4 or later
 * Sphinx 1.0.x or later.
 * Tinkerer 1.0.x or later.
 
