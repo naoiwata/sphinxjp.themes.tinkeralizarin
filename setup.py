@@ -26,7 +26,7 @@ setup(
     classifiers=classifiers,
     keywords=['tinkerer', 'sphinxjp', 'reStructuredText', 'theme'],
     author='nao iwata',
-    author_email='naoiwata.info at gmail.com',
+    author_email='orrrizzle{at}gmail.com',
     url='https://github.com/naoiwata/sphinxjp.themes.tinkeralizarin',
     license='MIT',
     namespace_packages=['sphinxjp', 'sphinxjp.themes'],
