@@ -1,5 +1,5 @@
 =================================
- sphinxjp.themes.tinkeralizarin
+sphinxjp.themes.tinkeralizarin
 =================================
 
 Output sample

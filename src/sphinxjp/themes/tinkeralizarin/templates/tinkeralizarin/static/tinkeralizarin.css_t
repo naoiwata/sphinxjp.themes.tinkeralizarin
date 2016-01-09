@@ -84,6 +84,7 @@ a.readmore {
     -moz-border-radius: 4px;
     -webkit-border-radius:4px;
     border-radius:px;
+    margin: 10px 0;
 }
 
 article, nav li{
@@ -161,7 +162,7 @@ nav a:link, nav a:visited, nav a:active, nav a:hover {
 
 nav ul, nav ol {
     line-style: none;
-    list-style-image: none; 
+    list-style-image: none;
     margin: 0;
     padding:0 !important;
 }
@@ -174,9 +175,6 @@ nav li {
 }
 
 /* Content */
-div.admonition {
-    background: #f8f8f8;
-}
 
 span.title_tag, span.title_category{
     color: #eb6f63;
@@ -191,16 +189,16 @@ h1 {
     margin-top: 0;
 }
 
-ul.related li, ul { 
-    list-style-type: none; 
+ul.related li, ul {
+    list-style-type: none;
 }
 
 .widget ul{
-    margin: 0 0 0 -40px;   
+    margin: 0 0 0 -40px;
     font-size: 120%;
 }
 .widget li{
-    margin: 0 0 10px 0;    
+    margin: 0 0 10px 0;
 }
 
 article{
@@ -209,13 +207,13 @@ article{
     background: white;
 }
 
-article li { 
-    line-height: 1.5em; 
+article li {
+    line-height: 1.5em;
 }
 
 article h2, article h3{
     color: #777 !important;
-    font-family: "Open Sans" !important; 
+    font-family: "Open Sans" !important;
 }
 
 article h1,article h1 a, .main-container article h1{
@@ -224,8 +222,7 @@ article h1,article h1 a, .main-container article h1{
 }
 
 article p{
-    color: #2c3e50 !important;
-    font-family: "Open Sans" !important; 
+    font-family: "Open Sans" !important;
     line-height: 1.6em;
 }
 
@@ -357,7 +354,7 @@ div.archive_link {
     margin-top: 30px;
     padding: 10px 0;
     text-align: center;
-    
+
 }
 
 div.archive h1, #search-documentation, #search-progress, #search-results h2{
@@ -387,7 +384,7 @@ footer {
     padding: 15px 0 10px 0;
     font-size: 80%;
     color: #888;
-    width: 800px;   
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -415,6 +412,63 @@ footer {
 
 /* Minimal theme has narrower sidebar */
 @media only screen and (min-width: 999px) {
-    article { float: left; width: 800px;} 
+    article { float: left; width: 800px;}
     aside { display: block; float: left; width: 800px; padding: 60px 0 0 0;}
-}   
+}
+
+.section img {
+  max-width: 800px;
+}
+
+.docutils {
+  margin: 15px 0;
+}
+
+table {
+    border: 1px solid #bbb;
+    border-left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+table th, table td {
+    border-left: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+}
+
+table thead {
+    border-bottom: 2px solid #bbb;
+}
+
+table p {
+  margin: 0;
+}
+
+.docutils th, .docutils td {
+  padding: 5px;
+}
+
+.admonition{
+    padding:8px 35px 8px 14px;
+    margin-bottom:20px;
+    text-shadow:0 1px 0 rgba(255,255,255,0.5);
+    background-color:#fcf8e3;
+    border:1px solid #fbeed5;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.admonition a{
+    border-color: #8a6d3b;
+}
+
+.danger, .error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
